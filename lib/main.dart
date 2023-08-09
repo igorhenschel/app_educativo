@@ -132,6 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final PreferredSizeWidget appBar = AppBar(
       title: const Text('Despesas Pessoais'),
       actions: actions,
+      centerTitle: true,
     );
 
     final availableHeight = mediaQuery.size.height -
